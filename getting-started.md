@@ -123,17 +123,39 @@ Search results are organized by match quality.
 
 Each result includes a source document name and folder, relevant text excerpt with the page number, as well as a "Show more" option to view extended context. To view the entire document that includes your search term, click on the document file name.
 
-<img src="./assets/KB4-3.jpg" height="100px" alt="A screenshot of a search result with an arrow pointed at the clickable filename">
+<img src="./assets/KB4-3.jpg" height="115px" alt="A screenshot of a search result with an arrow pointed at the clickable filename">
 
 >[!TIP]
 >Be specific in your search queries: *"LinkedIn product description guidelines"* returns better results than *"social media"*. Try a few different phrasings to see which ones yield the best results.
 
 ## Using Knowledge Base content in Workflows
 
+Knowledge Bases integrate seamlessly with Profound's Workflows, allowing you to automatically incorporate company information into AI-generated content.
 
+>[!TIP]
+>If you are new to Workflows, have a look at our [Workflows documentation](https://profound-knowledge-base.help.usepylon.com/collections/1956844252-workflows) to learn how to get started with them.
 
-## Best practices for structuring your Knowledge Base
+### Integrating a Knowledge Base into a Workflow
 
-## Next steps
+Here's how to reference your Knowledge Base in a content creation workflow:
 
-## Need help?
+1. **Create or edit a workflow**. A detailed guide on how to do it can be found [in our Workflows documentation](https://profound-knowledge-base.help.usepylon.com/articles/2212787792-create-a-workflow).
+2. **Add a Use Knowledge Base step**
+   - In the workflow builder, add a **"Use Knowledge Base"** action directly before the action that you need information for
+   - Select which Knowledge Base to use
+   - Enter your query
+   - Label the output with a descriptive variable name
+3. **Reference the output**:
+   - Use the output in the later workflow steps by referencing it's output variable name
+   - Learn more about [using variables in Workflow steps](https://profound-knowledge-base.help.usepylon.com/articles/2212787792-create-a-workflow#use-variables-in-steps)
+
+>[!TIP]
+> For a more detailed example of how to integrate your Knowledge Base into a Workflow, check out our [Integration Tutorial](./integration-tutorial.md)
+
+### Tips for effective integration
+
+- **Query strategically**: Be specific about what information you need at each workflow step
+- **Combine sources**: Use multiple Knowledge Bases in the same workflow (e.g., product docs + brand guidelines)
+- **Add human checkpoints**: Always review AI-generated content that references your Knowledge Base
+- **Iterate queries**: If results aren't relevant, refine your Knowledge Base query
+
