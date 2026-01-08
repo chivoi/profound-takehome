@@ -60,15 +60,77 @@ You can keep track of your storage usage in the **Brand Hub > Knowledge Bases** 
 
 ## Organizing content with folders
 
-A well-organized Knowledge Base makes it easier to find information for both your team and AI.
+After connecting your Knowledge Base to your Brand Hub, you can manage the files and folders within the base.
 
 ### Adding folders and files
 
+1. Select a Knowledge base from the list, click on it's name.
+![A screenshot of the Knowledge Bases list in the Profound Workspace Brand Hub, with an errow pointing to the Company General Knowledge Base](./assets/KB3.jpg)
+
+2. Click **Add Folder** to create a new folder
+3. Click **Add Files** to upload documents directly
+![A screenshot of the top of the File Overview table in the Company General Knowledge Base with arrows pointing to "Add Folder" and "Add Files" buttons](./assets/KB3-1.jpeg)
+
+Supported file types include PDF, DOCX, TXT, and other common file formats.
+
 ### Managing files
+
+#### File Overview Table
+
+In the File Overview table you can see following data:
+
+- **Name**: Folder or file name
+- **Last Sync**: When content was last updated
+- **Details**: Number of files in folders, or tags for individual files
+- **Size**: Storage space used
+- **Actions**: Download or manage individual items
+
+![A screenshot of the File Overview table in the Company General Knowledge Base with sample files and folders](./assets/KB3-1.jpeg)
+
+#### File tagging
+
+Files can be assigned tags to help with categorization and search.
+
+![A screenshot of the files in the File Overview table with arrows pointed at file tags](./assets/KB3-3.jpeg)
+
+When you sync your knowledge base, some tags are added to your existing files automatically, based on the file content. You can edit / add tags by clicking on the individual files and following the prompts.
+
+When adding custom tags, make sure to use clear, descriptive tag names (e.g., "Onboarding," "Guide", "HR", etc.) for the best results.
+
+Multiple tags can be added to the same file, and multiple files can have the same tags.
 
 ## Searching your Knowledge Base
 
+The Knowledge Base Search Test feature lets you query your content before using it in workflows, helping you verify that relevant information is indexed correctly.
+
+![A screenshot of the File Overview table page in Company General Knowledge Base with arrows pointed at the Knowledge Base Search Test component](./assets/KB4.jpg)
+
+### Running a search
+
+1. Open any Knowledge Base
+2. In the **Knowledge Base Search Test** section, enter your query
+3. Click **Run Search** or press Enter
+4. Click **Advanced Settings** to refine your search parameters if needed
+5. Review results ranked by relevance
+
+### Understanding search results
+
+Search results are organized by match quality.
+
+![A screenshot of the sample Search Test search results](./assets/KB4-2.jpg)
+
+**High Match** results directly answer your query, while **Medium Match** ones are partially relevant, and **Low Match** ones are only loosely related to your search terms.
+
+Each result includes a source document name and folder, relevant text excerpt with the page number, as well as a "Show more" option to view extended context. To view the entire document that includes your search term, click on the document file name.
+
+<img src="./assets/KB4-3.jpg" height="100px" alt="A screenshot of a search result with an arrow pointed at the clickable filename">
+
+>[!TIP]
+>Be specific in your search queries: *"LinkedIn product description guidelines"* returns better results than *"social media"*. Try a few different phrasings to see which ones yield the best results.
+
 ## Using Knowledge Base content in Workflows
+
+
 
 ## Best practices for structuring your Knowledge Base
 
