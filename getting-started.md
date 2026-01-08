@@ -128,6 +128,16 @@ Each result includes a source document name and folder, relevant text excerpt wi
 >[!TIP]
 >Be specific in your search queries: *"LinkedIn product description guidelines"* returns better results than *"social media"*. Try a few different phrasings to see which ones yield the best results.
 
+### What are chunks?
+
+When you upload files to a Knowledge Base, Profound automatically processes them into chunks.
+
+<img src="./assets/KB3-4.jpeg" height="70px" alt="A screenshot of a Knowledge Base page with the amount of files and chunks displayed, the amount of chunks underlined">
+
+**Chunks** are small segments of text with a meaning. For example, a 50-page product documentation PDF might be broken into 200 chunks, with each chunk containing a specific section like a feature description, pricing table, or integration guide.
+
+Chunking is what allows the Knowledge Base search results to point to the exact relevant piece of text, rather than an entire document, making it faster to find specific information.
+
 ## Using Knowledge Base content in Workflows
 
 Knowledge Bases integrate seamlessly with Profound's Workflows, allowing you to automatically incorporate company information into AI-generated content.
@@ -159,3 +169,62 @@ Here's how to reference your Knowledge Base in a content creation workflow:
 - **Add human checkpoints**: Always review AI-generated content that references your Knowledge Base
 - **Iterate queries**: If results aren't relevant, refine your Knowledge Base query
 
+## Best practices for structuring your Knowledge Base
+
+### I. Create purpose-specific Knowledge Bases
+
+Rather than having one massive Knowledge Base, create separate smaller ones for distinct purposes:
+
+- Product Documentation
+- Brand & Messaging Guidelines
+- Customer Research & Insights
+- Security & Compliance
+- etc.
+
+### II. Keep the content current
+
+- Remove outdated documents that could provide incorrect information.
+- Use the "Last Sync" indicator to identify stale content.
+- Set up regular reviews to refresh your Knowledge Base.
+
+### III. Organize the folders
+
+1. **Keep related content together**: Group documents that cover similar topics in the same folder
+
+2. **Use logical hierarchies**: Organize folders by department, content type, or topic, like in the below example
+
+```text
+Company General/
+├── Customer Success/
+│   ├── Case Studies/
+│   ├── Testimonials/
+│   └── ROI Reports/
+├── Competitive Intelligence/
+│   ├── Feature Comparisons/
+│   ├── Pricing Analysis/
+│   └── Market Research/
+└── Brand & Messaging/
+    ├── Product Positioning/
+    ├── Value Propositions/
+    └── Content Guidelines/
+```
+
+3. **Use descriptive folder names**: "Marketing Content Library" is clearer than "Marketing Stuff".
+
+### IV. Use consistent file naming
+
+- Follow the unified file naming format: inconsistent naming like `Case_Study_MongoDB.pdf`, `ramp-cassestudy.pdf` and `Airbyte case study.pdf` in the same folder makes content harder to find and manage
+- Include version numbers or dates into file names: `Product_Roadmap_2025Q1.pdf`
+- Use descriptive names, like `LinkedIn_Posting_Guidelines.pdf` not `Doc1.pdf`
+
+## Next steps
+
+Now that you've set up your Knowledge Base and explored integrating it with Workflows, you can:
+
+1. **Explore Workflows**: Visit the [Workflows documentation](https://profound-knowledge-base.help.usepylon.com/articles/9762251986-workflows-overview) section to learn how to make most use of Workflows using Knowledge Bases and beyond.
+2. **Build your first Workflow using a Knowledge Base**: Follow the [Integration Tutorial](./integration-tutorial.md) to create a simple content generation workflow that queries your Knowledge Base.
+3. **Get Inspired by the Use Case Examples**: Visit the [Use Case Examples](./use-case-examples.md) section to learn about the ways Knowledge Bases can solve problems for your team.
+4. **Need help?** Visit the [FAQ & Troubleshooting page](./faq-troubleshooting.md), use the in-app Help Widget to chat with a specialist, or [email our Support team](mailto:support@tryprofound.com).
+
+>[!TIP]
+> Start small with a single, well-organized Knowledge Base (like Product Documentation) before expanding. Test queries thoroughly to ensure you're getting relevant results, then gradually add more Knowledge Bases as you become comfortable with the feature.
