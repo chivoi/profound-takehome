@@ -143,31 +143,20 @@ Chunking is what allows the Knowledge Base search results to point to the exact 
 Knowledge Bases integrate seamlessly with Profound's Workflows, allowing you to automatically incorporate company information into AI-generated content.
 
 >[!TIP]
->If you are new to Workflows, have a look at our [Workflows documentation](https://profound-knowledge-base.help.usepylon.com/collections/1956844252-workflows) to learn how to get started with them.
-
-### Integrating a Knowledge Base into a Workflow
+>If you are new to Workflows, check out our [Workflows documentation](https://profound-knowledge-base.help.usepylon.com/collections/1956844252-workflows) to learn how to get started with them.
 
 Here's how to reference your Knowledge Base in a content creation workflow:
 
 1. **Create or edit a workflow**. A detailed guide on how to do it can be found [in our Workflows documentation](https://profound-knowledge-base.help.usepylon.com/articles/2212787792-create-a-workflow).
 2. **Add a Use Knowledge Base step**
-   - In the workflow builder, add a **"Use Knowledge Base"** action directly before the action that you need information for
+   - In the workflow builder, add a **"Use Knowledge Base"** action before the actions that you need the information for
    - Select which Knowledge Base to use
    - Enter your query
    - Label the output with a descriptive variable name
-3. **Reference the output**:
-   - Use the output in the later workflow steps by referencing it's output variable name
-   - Learn more about [using variables in Workflow steps](https://profound-knowledge-base.help.usepylon.com/articles/2212787792-create-a-workflow#use-variables-in-steps)
+3. **Reference the output** in the later workflow steps by referencing it's output variable name
 
 >[!TIP]
-> For a more detailed example of how to integrate your Knowledge Base into a Workflow, check out our [Integration Tutorial](./integration-tutorial.md)
-
-### Tips for effective integration
-
-- **Query strategically**: Be specific about what information you need at each workflow step
-- **Combine sources**: Use multiple Knowledge Bases in the same workflow (e.g., product docs + brand guidelines)
-- **Add human checkpoints**: Always review AI-generated content that references your Knowledge Base
-- **Iterate queries**: If results aren't relevant, refine your Knowledge Base query
+> For a more detailed example of how to integrate your Knowledge Base into a Workflow, check out our [Integrating a Knowledge Base into a Workflow tutorial](./integration-tutorial.md)
 
 ## Best practices for structuring your Knowledge Base
 
@@ -221,9 +210,9 @@ Company General/
 
 Now that you've set up your Knowledge Base and explored integrating it with Workflows, you can:
 
-1. **Explore Workflows**: Visit the [Workflows documentation](https://profound-knowledge-base.help.usepylon.com/articles/9762251986-workflows-overview) section to learn how to make most use of Workflows using Knowledge Bases and beyond.
-2. **Build your first Workflow using a Knowledge Base**: Follow the [Integration Tutorial](./integration-tutorial.md) to create a simple content generation workflow that queries your Knowledge Base.
-3. **Get Inspired by the Use Case Examples**: Visit the [Use Case Examples](./use-case-examples.md) section to learn about the ways Knowledge Bases can solve problems for your team.
+1. **Explore Workflows**: Visit the [Workflows documentation](https://profound-knowledge-base.help.usepylon.com/articles/9762251986-workflows-overview) section to learn how to make most use of Workflows using Knowledge Bases and beyond
+2. **Build your first Workflow using a Knowledge Base**: Follow the [Integration Tutorial](./integration-tutorial.md) to create a simple content generation workflow that queries your Knowledge Base
+3. **Get Inspired by the Use Case Examples**: Visit the [Use Case Examples](./use-case-examples.md) section to learn about the ways Knowledge Bases can solve problems for your team
 4. **Need help?** Visit the [FAQ & Troubleshooting page](./faq-troubleshooting.md), use the in-app Help Widget to chat with a specialist, or [email our Support team](mailto:support@tryprofound.com).
 
 >[!TIP]
