@@ -42,9 +42,17 @@ Company General/
 
 ## Use consistent file naming
 
-- Follow the unified file-naming format: inconsistent naming like `Case_Study_MongoDB.pdf`, `ramp-cassestudy.pdf` and `Airbyte case study.pdf` in the same folder makes content harder to find and manage
-- Include version numbers or dates in file names: `Product_Roadmap_2025Q1.pdf`
-- Use descriptive names, like `LinkedIn_Posting_Guidelines.pdf` rather than `Doc1.pdf`
+1. Follow a **unified file-naming format**: inconsistent naming like `Case_Study_MongoDB.pdf`, `ramp-cassestudy.pdf`, and `Airbyte case study.pdf` in the same folder makes content harder to find and manage. Naming all files in the same way creates a better experience.
+
+```text
+Case Studies/
+├── Airbyte_Case_Study.pdf
+├── MongoDB_Case_Study.pdf
+├── Ramp_Case_Study.pdf
+```
+
+2. Include **version numbers** or dates in file names: `Product_Roadmap_2025Q1.pdf`.
+3. Use **descriptive names**, like `LinkedIn_Posting_Guidelines.pdf` rather than `Doc1.pdf`.
 
 >[!TIP]
 > Start small with a single, well-organized Knowledge Base (like Product Documentation) before expanding. Test queries thoroughly to ensure you're getting relevant results, then gradually add more Knowledge Bases as you become comfortable with the feature.
@@ -53,4 +61,4 @@ Company General/
 
 - [Manage your Knowledge Bases](./manage.md)
 - Follow the [integration tutorial](../integration-tutorial.md) to integrate a Knowledge Base into a Workflow
-- Visit the [FAQ & Troubleshooting](../faq-troubleshooting.md) section
+- Visit the [FAQ & Troubleshooting](mock_link) section
