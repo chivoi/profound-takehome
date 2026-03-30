@@ -18,7 +18,7 @@ To connect your first Knowledge Base, you will need:
 
 4. Enter a descriptive name (e.g., "Product Documentation" or "Marketing Content Library") and description for your Knowledge Base.
 5. Select your data source (Google Drive, SharePoint, etc.) from the available integrations.
-6. Follow the prompts through the authentication flow and grant Profound necessary permissions to access your data.
+6. Follow the prompts through the authentication flow and grant Profound the necessary permissions to access your data.
 7. Choose which folders or files to sync.
 8. Click **Create**.
 

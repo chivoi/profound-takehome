@@ -42,7 +42,7 @@ Company General/
 
 ## Use consistent file naming
 
-1. Follow a **unified file-naming format**: inconsistent naming like `Case_Study_MongoDB.pdf`, `ramp-cassestudy.pdf`, and `Airbyte case study.pdf` in the same folder makes content harder to find and manage. Naming all files in the same way creates a better experience.
+1. Follow a **unified file-naming format**: inconsistent naming like `Case_Study_MongoDB.pdf`, `ramp-casestudy.pdf`, and `Airbyte case study.pdf` in the same folder makes content harder to find and manage. Naming all files in the same way creates a better experience.
 
 ```text
 Case Studies/

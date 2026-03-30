@@ -4,7 +4,7 @@ Knowledge Bases allow you to connect your company's internal documents directly 
 
 ## What are Knowledge Bases
 
-Knowledge Bases are centralized repositories of your company's information: product documentation, engineering guides, customer research, approved marketing content, and more. They are organized into folders, files and content chunks, which can be queried and referenced when generating content.
+Knowledge Bases are centralized repositories of your company's information: product documentation, engineering guides, customer research, approved marketing content, and more. They are organized into folders, files, and content chunks, which can be queried and referenced when generating content.
 
 ## Why Knowledge Bases are valuable
 
@@ -12,7 +12,7 @@ While Brand Kits can define *how* your brand communicates: your tone, voice, wri
 
 Knowledge Bases empower your team to:
 
-- **Ground AI content in facts, not hallucinations**: Your content can sound perfectly on-brand but still contain incorrect product specs, outdated pricing, or made-up statistics. Knowledge Bases solve this by letting you search for exact information, like your company's enterprise pricing model or a customer success metrics for financial services, and pull verified and approved data directly into generated content.
+- **Ground AI content in facts, not hallucinations**: Your content can sound perfectly on-brand but still contain incorrect product specs, outdated pricing, or made-up statistics. Knowledge Bases solve this by letting you search for exact information, like your company's enterprise pricing model or customer success metrics for financial services, and pull verified and approved data directly into generated content.
 
 - **Leverage proprietary insights competitors can't access**: Your competitive advantages, internal research, customer insights, and product roadmaps don't exist on the public web. Knowledge Bases give Workflows access to this proprietary content, enabling you to create authoritative content that stands out in AI search results because it's backed by unique data only you possess.
 

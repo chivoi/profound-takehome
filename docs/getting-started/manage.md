@@ -35,7 +35,7 @@ Files can be assigned tags to help with categorization and search.
 
 When you sync your Knowledge Base, some tags are added to your existing files automatically based on the file content. You can edit or add tags by clicking on the individual files and following the prompts.
 
-When adding custom tags, make sure to use clear, descriptive tag names (e.g., "Onboarding," "Guide", "HR", etc.) for the best results.
+When adding custom tags, make sure to use clear, descriptive tag names (e.g., "Onboarding", "Guide", "HR", etc.) for the best results.
 
 Multiple tags can be added to the same file, and multiple files can have the same tags.
 
@@ -43,7 +43,7 @@ Multiple tags can be added to the same file, and multiple files can have the sam
 
 Based on your Profound plan, your workspace includes a certain amount of storage for Knowledge Bases. The default storage allocation on a Starter plan is 10GB. If you need more, you can talk to your sales representative or contact our sales team using [the contact form](https://www.tryprofound.com/contact-sales) to explore your options.
 
-YYou can keep track of your storage usage in the **Brand Hub > Knowledge Bases** tab, where it is displayed (e.g., 3.7GB/10GB Used) just above the Knowledge Bases lis:
+You can keep track of your storage usage in the **Brand Hub > Knowledge Bases** tab, where it is displayed (e.g., 3.7GB/10GB Used) just above the Knowledge Bases list:
 
 ![A screenshot of the Knowledge Bases list in the Profound Workspace Brand Hub, with the storage usage displayed and highlighted](./assets/KB2-1.jpg)
 
@@ -98,7 +98,7 @@ Here's how to reference your Knowledge Base in a content creation Workflow:
    - Select which Knowledge Base to use
    - Enter your query
    - Label the output with a descriptive variable name
-3. **Reference the output** in the later Workflow steps by referencing it's output variable name
+3. **Reference the output** in the later Workflow steps by referencing its output variable name
 
 >[!TIP]
 > For a more detailed example of how to integrate your Knowledge Base into a Workflow, check out our [Integrating a Knowledge Base into a Workflow tutorial](../integration-tutorial.md)
